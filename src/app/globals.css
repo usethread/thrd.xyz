@@ -25,3 +25,43 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* div.home-grad {
+  @apply bg-gradient-to-b from-rose-500 via-stone-500 to-stone-900;
+} */
+
+div.body {
+  @apply w-screen h-screen bg-zinc-900;
+}
+
+nav.navbar {
+  @apply w-full flex h-[5rem] px-14 items-center justify-between font-bold;
+}
+
+div.content {
+  @apply w-full flex h-[calc(100%-5rem)];
+}
+
+form {
+  @apply w-[700px] p-4 bg-zinc-800 rounded-md
+}
+
+label.form-label {
+  @apply text-[1em] font-bold uppercase block;
+}
+
+input.form-input {
+  @apply text-[1em] text-white px-2 py-2 rounded-md outline-none bg-zinc-700 w-[20rem];
+}
+
+button.form-button {
+  @apply text-[1em] text-white px-2 py-2 rounded-md outline-none bg-rose-400 w-[20rem];
+}
+
+h1.title {
+  @apply text-[2.5em] font-bold uppercase;
+}
+
+a.link {
+  @apply text-[1em] font-semibold text-rose-300 hover:underline;
+}
