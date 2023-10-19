@@ -19,7 +19,7 @@ import { Book, Info, LogIn } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar max-w-7xl flex items-center mx-auto px-4 gap-4 md:px-0">
       <h1>strafe.chat</h1>
       <NavigationMenu className="hidden md:flex">
         <NavigationMenuList>
