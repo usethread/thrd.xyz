@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import Countdown from "@/components/Countdown";
+import Countdown from "@/components/countdown";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
@@ -15,7 +15,7 @@ export default function Home() {
             <div className="flex flex-col gap-6 w-full xl:w-1/2">
               <div className="">
                 <Countdown />
-                <h1 className="text-6xl text-left font-bold">
+                <h1 className="xl:text-6xl md:text-3xl text-left font-bold">
                   No Censorship, Just Communication.
                 </h1>
                 <p className="mt-2 text-[17px]">
@@ -25,11 +25,11 @@ export default function Home() {
                 </p>
                 <div className="flex flex-row mt-3 items-center gap-2">
                   <Input
-                    className="hover:opacity-75 cursor-not-allowed"
+                   disabled
                     placeholder="john.doe123@example.com"
                     type="email"
                   />
-                  <Button className="w-[18rem] hover:opacity-75 cursor-not-allowed" variant={'default'}>Subscribe To Newsletter</Button>
+                  <Button disabled className="w-[19rem] disabled" variant={'default'}>Subscribe To Newsletter</Button>
                 </div>
               </div>
             </div>
