@@ -20,27 +20,33 @@ import { Book, Info, LogIn } from "lucide-react";
 export default function Navbar() {
   return (
     <nav className="navbar max-w-7xl flex items-center mx-auto px-4 gap-4 md:px-0">
-      <h1>strafe.chat</h1>
+      <div className="flex items-center gap-2.5">
+      <img style={{ borderRadius: "25%"}} className="w-10 h-10 rounded-md" src="/favicon.ico" alt="Logo" />
+      <h1 className="text-2xl font-bold">Strafe.chat</h1>
+      </div>
       <NavigationMenu className="hidden md:flex">
         <NavigationMenuList>
           <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Blog
+              <Book size={"1.25em"} />
+              &nbsp;Blog
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                About
+              <Info size={"1.25em"} />
+              &nbsp;About
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href="/login" legacyBehavior passHref>
+            <Link href="https://web.strafe.chat/login" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Login
+              <LogIn size={"1.25em"} /> 
+                &nbsp;Login
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

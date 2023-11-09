@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <div className="flex flex-col gap-4 ">
+      <div className="flex flex-col gap-4 pt-[85px]">
         <div className="max-w-7xl mx-auto py-32 px-3 xl:px-0 xl:min-h-screen xl:py-0">
           <div className="flex gap-2 items-center space-x-44">
             <div className="flex flex-col gap-6 w-full xl:w-1/2">
@@ -19,7 +19,7 @@ export default function Home() {
                   No Censorship, Just Communication.
                 </h1>
                 <p className="mt-2 text-[17px]">
-                  Strafe Chat is a web application focused on no censorship. We
+                  StrafeChat is a web application focused on no censorship. We
                   believe that people with any belief, opinion, or view should
                   be able to communicate with each other freely.
                 </p>
@@ -34,10 +34,10 @@ export default function Home() {
               </div>
             </div>
             <Image
-            className="w-1/2 h-[560px] xl:block hidden"
-              src={"/next.svg"}
-              width={115}
-              height={225}
+            className="h-[200px] xl:block hidden rounded-xl"
+              src={"/strafebanner.jpg"}
+              width={500}
+              height={500}
               alt="StrafeChat"
             />
           </div>
