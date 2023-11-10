@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import Countdown from "@/components/countdown";
+import Countdown from "@/components/Countdown";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
