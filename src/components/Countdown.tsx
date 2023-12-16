@@ -31,7 +31,7 @@ const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
   const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
   return (
-     <Badge className="bg-slate-900 text-white px-2 py-1">{days}d {hours}h {minutes}m {seconds}s Until Beta</Badge>
+     <Badge className="bg-slate-900 text-white px-2 py-1">{days}d {hours}h {minutes}m {seconds}s Until Eary Alpha 1.0</Badge>
   )
 }
 
