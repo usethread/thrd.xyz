@@ -14,7 +14,7 @@ export default function About() {
       <h1 className="xl:text-5xl font-bold">About</h1>
       <span className="inline-block w-[75%] pt-1">
       <p className="mt-.5 text-[17px] text-left">
-        <b><a href="https://github.com/strafechat">StrafChat</a></b> is a web application created by <b><a href="https://github.com/brydenisnotsmart">Bryden Calawy</a></b> with the intentions to provide everyone an alterntive chatapp with freedown of speech. StrafeChat is committed to providing a <b>safe</b> and secure environment for everyone, with whatever beliefs.
+        <b><a href="https://github.com/strafechat">StrafeChat</a></b> is a web application created by <b><a href="https://github.com/brydenisnotsmart">Bryden Calawy</a></b> with the intentions to provide everyone an alterative chatapp with freedoon of speech. StrafeChat is committed to providing a <b>safe</b> and secure environment for everyone, with whatever beliefs.
       </p>
         </span>
         <h1 className="xl:text-3xl mt-5">Team Members:</h1>
