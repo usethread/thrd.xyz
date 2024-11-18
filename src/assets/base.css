@@ -1,0 +1,119 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(1, 1, 1, 0.29);
+  --vt-c-divider-light-2: rgba(7, 7, 7, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: #000000;
+  --vt-c-text-light-2: rgba(0, 0, 0, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgb(255, 255, 255);
+
+  /* Brand Colors */
+  --brand-primary: rgba(33, 196, 93, 1);
+  --brand-secondary: rgba(28, 166, 79, 1);
+  --brand-accent: rgba(38, 226, 107, 1);
+  
+  /* UI Neutral Colors */
+  --neutral-grey: rgba(75, 85, 99, 1);
+  --neutral-grey-hover: rgba(55, 65, 81, 1);
+  
+  /* Social Brand Colors */
+  --discord-brand: #5865F2;
+  --discord-hover: #4752C4;
+  --vecurity-brand: #7616fd;
+  --vecurity-hover: #6a1af1;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-2);
+
+  --section-gap: 160px;
+
+  /* Social Media Colors */
+  --color-discord: var(--discord-brand);
+  --color-discord-hover: var(--discord-hover);
+  --color-steam: var(--brand-primary);
+  --color-steam-hover: var(--brand-secondary);
+  --color-twitter: var(--brand-primary);
+  --color-twitter-hover: var(--brand-secondary);
+
+  /* UI Colors */
+  --color-primary: var(--brand-primary);
+  --color-primary-hover: var(--brand-secondary);
+  --color-accent: var(--brand-accent);
+  --color-accent-hover: var(--brand-secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+
+    /* Keep social media colors consistent in dark mode */
+    --color-discord: var(--discord-brand);
+    --color-discord-hover: var(--discord-hover);
+    --color-steam: var(--brand-primary);
+    --color-steam-hover: var(--brand-secondary);
+    --color-twitter: var(--brand-primary);
+    --color-twitter-hover: var(--brand-secondary);
+
+    /* UI Colors in dark mode */
+    --color-primary: var(--brand-primary);
+    --color-primary-hover: var(--brand-secondary);
+    --color-accent: var(--brand-accent);
+    --color-accent-hover: var(--brand-secondary);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
