@@ -9,6 +9,14 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
+    {
+      path: "/discord",
+      name: "discord",
+      redirect: (to) => {
+        window.location.href = "https://discord.gg/XPyjQXaXKG"
+        return { path: to.path };
+      },
+    },
   ],
 });
 

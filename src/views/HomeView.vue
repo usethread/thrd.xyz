@@ -13,9 +13,9 @@
         experience the power of shared interests and collective growth.
       </p>
       <div class="button-group">
-        <router-link to="https://discord.gg/XPyjQXaXKG" class="button">
+        <a href="/discord" class="button">
           <font-awesome-icon icon="fab fa-discord" class="button-icon" /> Join Our Discord
-        </router-link>
+        </a>
         <a href="https://www.youtube.com/watch?v=doEqUhFiQS4" class="beta-button">
           <font-awesome-icon icon="fas fa-rocket" class="button-icon" /> Request Beta Access
         </a>
