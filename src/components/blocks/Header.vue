@@ -45,7 +45,7 @@ import { RouterLink, RouterView } from "vue-router";
 
   .open-app {
     font-size: medium;
-    background-color: rgba(33, 196, 93, 1);
+    background-color: var(--color-primary);
     border-radius: 10px;
     padding: 8px 15px;
     cursor: pointer;
@@ -54,7 +54,7 @@ import { RouterLink, RouterView } from "vue-router";
   }
 
   .open-app:hover {
-    background-color: rgba(33, 196, 93, 0.5);
+    background-color: var(--color-primary-hover);
   }
 
   h1.title {
@@ -63,7 +63,7 @@ import { RouterLink, RouterView } from "vue-router";
     font-weight: 900;
   }
   h1.title:hover {
-    color: rgba(33, 196, 93, 1);
+    color: var(--color-primary);
   }
 }
 </style>
