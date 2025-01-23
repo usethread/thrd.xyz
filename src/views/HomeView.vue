@@ -14,20 +14,21 @@
       </p>
       <div class="button-group">
         <a href="/discord" class="button">
-          <font-awesome-icon icon="fab fa-discord" class="button-icon" /> Join Our Discord
+          <font-awesome-icon icon="fab fa-discord" class="button-icon" /> Join
+          Our Discord
         </a>
-        <a href="https://www.youtube.com/watch?v=doEqUhFiQS4" class="beta-button">
-          <font-awesome-icon icon="fas fa-rocket" class="button-icon" /> Request Beta Access
+        <a href="https://alpha.strafechat.dev" class="beta-button">
+          <font-awesome-icon icon="fas fa-rocket" class="button-icon" /> Open
+          Dev Build
         </a>
       </div>
     </div>
     <div class="badge">
-      <a
-        href="https://vecurity.net"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src="https://www.vecurity.net/assets/images/icons/favicon.png" alt="Vecurity Logo" />
+      <a href="https://vecurity.net" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://www.vecurity.net/assets/images/icons/favicon.png"
+          alt="Vecurity Logo"
+        />
         Secured by Vecurity
       </a>
     </div>
@@ -133,7 +134,6 @@ export default {
   background-color: var(--color-primary-hover);
 }
 
-/* Discord button specific styles */
 .button {
   background-color: var(--color-discord);
 }

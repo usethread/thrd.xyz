@@ -21,17 +21,17 @@
   --vt-c-text-dark-2: rgb(255, 255, 255);
 
   /* Brand Colors */
-  --brand-primary: rgba(33, 196, 93, 1);
-  --brand-secondary: rgba(33, 196, 93, .5);
-  --brand-accent: rgba(38, 226, 107, 1);
-  
+  --brand-primary: hsl(118 28% 45%);
+  --brand-secondary: hsla(118 28% 45% / 50%);
+  --brand-accent: hsl(118 28% 45%);
+
   /* UI Neutral Colors */
   --neutral-grey: rgba(75, 85, 99, 1);
   --neutral-grey-hover: rgba(55, 65, 81, 1);
-  
+
   /* Social Brand Colors */
   --discord-brand: rgba(88, 101, 242, 1);
-  --discord-hover: rgba(88, 101, 242, .5);
+  --discord-hover: rgba(88, 101, 242, 0.5);
   --vecurity-brand: #7616fd;
   --vecurity-hover: #6a1af1;
 }
