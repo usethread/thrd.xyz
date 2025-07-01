@@ -23,15 +23,6 @@
         </a>
       </div>
     </div>
-    <div class="badge">
-      <a href="https://vecurity.net" target="_blank" rel="noopener noreferrer">
-        <img
-          src="https://www.vecurity.net/assets/images/icons/favicon.png"
-          alt="Vecurity Logo"
-        />
-        Secured by Vecurity
-      </a>
-    </div>
   </div>
 </template>
 
