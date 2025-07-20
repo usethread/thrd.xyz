@@ -39,7 +39,8 @@ import {
   faThumbtack,
   faSearch,
   faPaperclip,
-  faSmile
+  faSmile,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faDiscord,
@@ -85,7 +86,8 @@ library.add(
   faThumbtack,
   faSearch,
   faPaperclip,
-  faSmile
+  faSmile,
+  faPhone
 );
 
 const app = createApp(App);

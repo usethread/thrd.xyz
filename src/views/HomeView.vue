@@ -300,15 +300,15 @@
           
           <div class="feature-card">
             <div class="feature-icon">
-              <font-awesome-icon :icon="['fas', 'mobile-alt']" />
+              <font-awesome-icon :icon="['fas', 'phone']" />
             </div>
-            <h3>Cross-Platform</h3>
-            <p>Access Strafe from any device - desktop, mobile, or web browser.</p>
+            <h3>VOIP</h3>
+            <p>Crystal clear voice calls with advanced audio features and low latency.</p>
             <div class="feature-mockup">
-              <div class="mockup-devices">
-                <div class="device desktop">💻</div>
-                <div class="device mobile">📱</div>
-                <div class="device web">🌐</div>
+              <div class="mockup-voip">
+                <div class="voip-indicator active">🎤 Live</div>
+                <div class="voip-quality">📶 HD Audio</div>
+                <div class="voip-status">🔊 Connected</div>
               </div>
             </div>
           </div>
@@ -1517,6 +1517,41 @@
   padding: 0.5rem;
   border-radius: 0.25rem;
   font-size: 0.875rem;
+}
+
+.mockup-voip {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.voip-indicator,
+.voip-quality,
+.voip-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.voip-indicator.active {
+  background: rgba(158, 206, 106, 0.2);
+  color: #9ece6a;
+  border: 1px solid rgba(158, 206, 106, 0.3);
+}
+
+.voip-quality {
+  background: rgba(122, 162, 247, 0.2);
+  color: #7aa2f7;
+  border: 1px solid rgba(122, 162, 247, 0.3);
+}
+
+.voip-status {
+  background: rgba(247, 118, 142, 0.2);
+  color: #f7768e;
+  border: 1px solid rgba(247, 118, 142, 0.3);
 }
 
 /* About Section */
