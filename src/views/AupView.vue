@@ -29,6 +29,14 @@
             <li>Child exploitation material of any kind</li>
           </ul>
 
+          <h3>Adult Content</h3>
+          <ul>
+            <li>NSFW (Not Safe For Work) content including explicit sexual imagery</li>
+            <li>Pornographic material or sexually explicit content</li>
+            <li>Adult content that is not properly age-gated or marked</li>
+            <li>Content depicting nudity or sexual acts</li>
+          </ul>
+
           <h3>Direct Threats and Harassment</h3>
           <ul>
             <li>Specific, credible threats of violence against identifiable individuals</li>

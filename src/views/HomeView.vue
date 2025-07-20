@@ -34,7 +34,7 @@
       <div class="hero-content">
         <div class="hero-center">
           <div class="hero-badge">
-            <span><font-awesome-icon :icon="['fas', 'rocket']" /> Next Generation Chat Platform</span>
+            <span><font-awesome-icon :icon="['fas', 'flag-usa']" /> FOSS and Free Speech done right.</span>
           </div>
           <h1 class="hero-title">
             Welcome to <span class="brand-highlight">Strafe</span>
@@ -428,7 +428,7 @@
         <div class="footer-content">
           <div class="footer-brand">
             <h3>Strafe</h3>
-            <p>Next generation communication platform</p>
+            <p>FOSS and Free Speech done right</p>
           </div>
           <div class="footer-links">
             <div class="link-group">
@@ -440,8 +440,8 @@
             <div class="link-group">
               <h4>Community</h4>
               <a href="https://discord.gg/XPyjQXaXKG">Discord</a>
-              <a href="#">GitHub</a>
-              <a href="#">Support</a>
+              <a href="https://github.com/StrafeChat" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://x.com/strafechat" target="_blank" rel="noopener noreferrer">X</a>
             </div>
             <div class="link-group">
               <h4>Legal</h4>
@@ -452,7 +452,7 @@
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Strafe. All rights reserved.</p>
+          <p>&copy; 2025 Strafe Communications. All rights reserved.</p>
         </div>
       </div>
     </footer>
@@ -1611,17 +1611,47 @@
     gap: 2rem;
   }
   
+  .about-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  .about-text h3 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  
+  .about-text p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .about-text li {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+  
   .about-stats {
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   
   .stat-item {
     padding: 1.5rem 1rem;
+    min-width: 0;
+    flex: 1;
   }
   
   .stat-number {
     font-size: 2rem;
+  }
+  
+  .stat-label {
+    font-size: 0.8rem;
+    word-wrap: break-word;
   }
 }
 
