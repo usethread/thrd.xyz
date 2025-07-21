@@ -7,7 +7,7 @@
           Back to Home
         </router-link>
         <h1>Terms of Service</h1>
-        <p class="last-updated">Last updated: Jult 2025</p>
+        <p class="last-updated">Last updated: July 2025</p>
       </div>
       
       <div class="legal-content">
@@ -18,7 +18,7 @@
 
         <section>
           <h2>2. Description of Service</h2>
-          <p>Strafe is a communication platform that provides real-time messaging, voice, and video chat services organized into spaces and channels.</p>
+          <p>Strafe is a communication platform that provides real-time messaging, voice, and video chat services organized into spaces and rooms.</p>
         </section>
 
         <section>

@@ -54,7 +54,7 @@
         </section>
 
         <section>
-          <h2>3. What We Do NOT Moderate</h2>
+          <h2>3. What We Do Not Moderate</h2>
           <p>Unlike many platforms, we explicitly <strong>do not</strong> moderate content based on:</p>
           <ul>
             <li>Political opinions or ideological viewpoints</li>
